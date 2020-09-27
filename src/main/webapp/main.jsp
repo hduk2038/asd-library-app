@@ -6,15 +6,18 @@
         <link rel="stylesheet" href="css/styles.css">
         <title>Home</title>
     </head>
+    
     <body>
         <header>
             <h1>Home</h1>
+            <div style="position: absolute; top: 20px; right: 5px;">
+                <a class="button" style="font-size: 16px" href="index.jsp">Logout</a>
+            </div>
         </header>
         
         <div style="text-align: center; margin: 15px">
-            <a class="button" href="index.jsp">Logout</a>
+            <a class="button" href="catalogue.jsp">View Catalogue</a>
         </div>
-        
     </body>
 </html>
 
