@@ -1,24 +1,22 @@
-<%-- 
-    Document   : index
-    Created on : 30/08/2020, 3:17:59 PM
-    Author     : kiera
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/styles.css">
-        <title>Welcome</title>
+        <title>Home</title>
     </head>
     <body>
         <header>
-            <h1>Library Room Booking System</h1>
+            <h1>Staff Home</h1>
+            <div style="position: absolute; top: 20px; right: 5px;">
+                <a class="button" style="font-size: 16px" href="index.jsp">Logout</a>
+            </div>
         </header>
         
         <div style="text-align: center; margin: 15px">
-            <a class="button" href="login.jsp">Login</a>
+            <a class="button" href="userManagement.jsp">User Management</a>
         </div>
+        
     </body>
 </html>

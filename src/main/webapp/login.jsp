@@ -24,7 +24,7 @@
             </table>
             <div style="text-align: center; margin-bottom: 20px;">
                 <a class="button" href="index.jsp">Cancel</a>
-                <a class="button" href="catalogue.jsp">Login</a>
+                <a class="button" href="staffCatalogue.jsp">Login</a>
             </div>
         </form>
     </body>
