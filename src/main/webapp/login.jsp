@@ -25,6 +25,7 @@
             <div style="text-align: center; margin-bottom: 20px;">
                 <a class="button" href="index.jsp">Cancel</a>
                 <a class="button" href="main.jsp">Login</a>
+                <a class="button" href="staffMain.jsp">Staff Login (test)</a>
             </div>
         </form>
     </body>

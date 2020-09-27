@@ -5,10 +5,22 @@
  */
 package uts.asd.lrbs.model.dao;
 
-/**
- *
- * @author kiera
- */
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoDatabase;
+
 public class MongoDBConnector {
     
+    MongoClientURI uri = new MongoClientURI(
+    "mongodb+srv://dbuser:dbpass@library-app-cluster.hkgtc.mongodb.net/lrbs_database?retryWrites=true&w=majority");
+
+    MongoClient mongoClient = new MongoClient(uri);
+    MongoDatabase database = mongoClient.getDatabase("lrbs_database");
+    
+    public MongoClient openConnection(){
+        return this.mongoClient;
+    }
+    public void closeConnection() {
+        mongoClient.close();
+    }
 }
